@@ -1,0 +1,30 @@
+main{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.container span{
+    font-size: 80px;
+    font-weight: 600;
+}
+.btn{
+    margin: 40px 10px;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: dimgrey;
+    color: white;
+    transition: .5s;
+}
